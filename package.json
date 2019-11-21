@@ -6,6 +6,7 @@
     "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www"
   },
+  "license": "MIT",
   "dependencies": {
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
@@ -17,5 +18,8 @@
   },
   "devDependencies": {
     "nodemon": "^1.19.4"
+  },
+  "engines": {
+    "node": "13.x"
   }
 }
