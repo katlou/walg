@@ -36,3 +36,15 @@ function lovelyGen() {
   setCookie("count", c_int, 365);
   window.location.reload();
 }
+
+function dealWithIt() {
+  document.getElementById("doge").style.display = "block";
+  setTimeout(() => {
+    document.getElementById("doge").style.opacity = "1";
+  }, this.animationDelay + 20);
+
+  setTimeout(() => {
+    document.getElementById("doge").style.opacity = "0";
+    document.getElementById("doge").style.display = "none";
+  }, 7000);
+}
