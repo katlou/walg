@@ -48,3 +48,11 @@ function dealWithIt() {
     document.getElementById("doge").style.display = "none";
   }, 7000);
 }
+
+function showTagline() {
+  document.getElementById("tagline").style.visibility = "visible";
+}
+
+function hideTagline() {
+  document.getElementById("tagline").style.visibility = "hidden";
+}
