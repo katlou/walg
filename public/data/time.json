@@ -1,0 +1,16 @@
+{
+  "description": "a list of time units yipee",
+  "time": [
+    "day",
+    "night",
+    "week",
+    "year",
+    "month",
+    "second",
+    "minute",
+    "nanosecond",
+    "fortnight",
+    "decade",
+    "score"
+  ]
+}
